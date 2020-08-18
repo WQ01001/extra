@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.crm.active.mapper.ActivityMapper">
+  <resultMap id="BaseResultMap" type="com.crm.active.entity.Activity">
+    <!--@mbg.generated-->
+    <!--@Table activity-->
+    <id column="activity_id" jdbcType="INTEGER" property="activityId" />
+    <result column="headline" jdbcType="VARCHAR" property="headline" />
+    <result column="subtitle" jdbcType="VARCHAR" property="subtitle" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="flag" jdbcType="BIT" property="flag" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    activity_id, headline, subtitle, `type`, create_time, flag
+  </sql>
+</mapper>
