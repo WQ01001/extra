@@ -3,12 +3,46 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b2a2861-83b0-4171-bc98-1007e4ea6d69" name="Default Changelist" comment="" />
+    <list default="true" id="1b2a2861-83b0-4171-bc98-1007e4ea6d69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/active/src/main/java/com/crm/active/entity/Information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/main/java/com/crm/active/entity/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/main/java/com/crm/active/entity/RosterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/main/java/com/crm/active/mapper/InformationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/main/java/com/crm/active/mapper/RosterMainMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/main/resources/mapper/InformationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/main/resources/mapper/ResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/main/resources/mapper/RosterMainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active/src/test/java/JunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/active/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/src/main/resources/application-product.yml" beforeDir="false" afterPath="$PROJECT_DIR$/active/src/main/resources/application-product.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/active/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/active/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/target/classes/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/active/target/classes/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/target/crm_extra.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/target/crm_extra.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/active/target/crm_extra.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active/target/generated-sources/annotations/com/crm/active/mapper/ConvertMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/active/target/generated-sources/annotations/com/crm/active/mapper/ConvertMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/crm/common/utils/Utils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/crm/common/utils/Utils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/crm/common/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/crm/common/utils/Utils.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="active/invalid/JRebel" />
+    </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -18,6 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1gG6xY6Y3asbdCTbaFDdBwIFjsp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,6 +124,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1322" height="353" key="GridCell.Tab.0.bottom" timestamp="1597730785362">
