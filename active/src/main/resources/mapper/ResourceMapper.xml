@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.crm.active.mapper.ResourceMapper">
+  <resultMap id="BaseResultMap" type="com.crm.active.entity.Resource">
+    <!--@mbg.generated-->
+    <!--@Table `resource`-->
+    <id column="resourceId" jdbcType="INTEGER" property="resourceid" />
+    <result column="resourceName" jdbcType="VARCHAR" property="resourcename" />
+    <result column="resourceTime" jdbcType="TIMESTAMP" property="resourcetime" />
+    <result column="resourcePhone" jdbcType="VARCHAR" property="resourcephone" />
+    <result column="resourceType" jdbcType="VARCHAR" property="resourcetype" />
+    <result column="resourceAddress" jdbcType="VARCHAR" property="resourceaddress" />
+    <result column="resourceIfconfirm" jdbcType="INTEGER" property="resourceifconfirm" />
+    <result column="userid" jdbcType="VARCHAR" property="userid" />
+    <result column="OldUserId" jdbcType="VARCHAR" property="olduserid" />
+    <result column="updatetime" jdbcType="TIMESTAMP" property="updatetime" />
+    <result column="dispatchtime" jdbcType="TIMESTAMP" property="dispatchtime" />
+    <result column="dispatchuserid" jdbcType="VARCHAR" property="dispatchuserid" />
+    <result column="datafrom" jdbcType="INTEGER" property="datafrom" />
+    <result column="importtime" jdbcType="TIMESTAMP" property="importtime" />
+    <result column="importuserid" jdbcType="VARCHAR" property="importuserid" />
+    <result column="appointStatus" jdbcType="INTEGER" property="appointstatus" />
+    <result column="remarksDetail" jdbcType="VARCHAR" property="remarksdetail" />
+    <result column="consultCourseId" jdbcType="VARCHAR" property="consultcourseid" />
+    <result column="consultTime" jdbcType="TIMESTAMP" property="consulttime" />
+    <result column="level" jdbcType="VARCHAR" property="level" />
+    <result column="flag" jdbcType="VARCHAR" property="flag" />
+    <result column="personalFlag" jdbcType="VARCHAR" property="personalflag" />
+    <result column="formCount" jdbcType="INTEGER" property="formcount" />
+    <result column="totalVisitCount" jdbcType="INTEGER" property="totalvisitcount" />
+    <result column="lastVisitContent" jdbcType="VARCHAR" property="lastvisitcontent" />
+    <result column="lastVisitTime" jdbcType="TIMESTAMP" property="lastvisittime" />
+    <result column="contactWay" jdbcType="VARCHAR" property="contactway" />
+    <result column="recipient" jdbcType="VARCHAR" property="recipient" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    resourceId, resourceName, resourceTime, resourcePhone, resourceType, resourceAddress, 
+    resourceIfconfirm, userid, OldUserId, updatetime, dispatchtime, dispatchuserid, datafrom, 
+    importtime, importuserid, appointStatus, remarksDetail, consultCourseId, consultTime, 
+    `level`, flag, personalFlag, formCount, totalVisitCount, lastVisitContent, lastVisitTime, 
+    contactWay, recipient
+  </sql>
+</mapper>

@@ -8,8 +8,8 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-08-18T13:50:55+0800",
-    comments = "version: 1.3.1.Final, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
+    date = "2020-09-04T18:30:08+0800",
+    comments = "version: 1.3.1.Final, compiler: javac, environment: Java 1.8.0_261 (Oracle Corporation)"
 )
 public class ConvertMapperImpl implements ConvertMapper {
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.crm.active.mapper.InformationMapper">
+  <resultMap id="BaseResultMap" type="com.crm.active.entity.Information">
+    <!--@mbg.generated-->
+    <!--@Table information-->
+    <result column="userId" jdbcType="VARCHAR" property="userid" />
+    <result column="resourceName" jdbcType="VARCHAR" property="resourcename" />
+    <result column="signTime" jdbcType="TIMESTAMP" property="signtime" />
+    <result column="applyTime" jdbcType="TIMESTAMP" property="applytime" />
+    <result column="schoolId" jdbcType="INTEGER" property="schoolid" />
+    <result column="schoolName" jdbcType="VARCHAR" property="schoolname" />
+    <result column="orderDate" jdbcType="TIMESTAMP" property="orderdate" />
+    <result column="orderPeroid" jdbcType="VARCHAR" property="orderperoid" />
+    <result column="resourceId" jdbcType="INTEGER" property="resourceid" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="status" jdbcType="BOOLEAN" property="status" />
+    <result column="infoId" jdbcType="VARCHAR" property="infoid" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="date" />
+    <result column="dispatchuserId" jdbcType="VARCHAR" property="dispatchuserid" />
+    <result column="content" jdbcType="VARCHAR" property="remark" />
+    <result column="dispatchuserName" jdbcType="VARCHAR" property="dispatchusername" />
+    <result column="userName" jdbcType="VARCHAR" property="username" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    userId, resourceName, signTime, applyTime, schoolId, schoolName, orderDate, orderPeroid, 
+    resourceId, `type`, `status`, infoId, create_time, dispatchuserId, content, dispatchuserName,
+    userName
+  </sql>
+</mapper>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.crm.active.mapper.RosterMainMapper">
+  <resultMap id="BaseResultMap" type="com.crm.active.entity.RosterMain">
+    <!--@mbg.generated-->
+    <!--@Table roster_main-->
+    <id column="userId" jdbcType="INTEGER" property="userid" />
+    <result column="roster_id" jdbcType="VARCHAR" property="rosterId" />
+    <result column="roster_name" jdbcType="VARCHAR" property="rosterName" />
+    <result column="roster_phone" jdbcType="VARCHAR" property="rosterPhone" />
+    <result column="roster_jobNo" jdbcType="VARCHAR" property="rosterJobno" />
+    <result column="roster_sex" jdbcType="INTEGER" property="rosterSex" />
+    <result column="roster_post" jdbcType="VARCHAR" property="rosterPost" />
+    <result column="roster_department" jdbcType="VARCHAR" property="rosterDepartment" />
+    <result column="entry_time" jdbcType="TIMESTAMP" property="entryTime" />
+    <result column="reality_entry_time" jdbcType="TIMESTAMP" property="realityEntryTime" />
+    <result column="invitation_name" jdbcType="VARCHAR" property="invitationName" />
+    <result column="roster_type" jdbcType="INTEGER" property="rosterType" />
+    <result column="onjob_type" jdbcType="INTEGER" property="onjobType" />
+    <result column="roster_remarks" jdbcType="VARCHAR" property="rosterRemarks" />
+    <result column="flag" jdbcType="INTEGER" property="flag" />
+    <result column="is_Destroy" jdbcType="VARCHAR" property="isDestroy" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="work_space" jdbcType="VARCHAR" property="workSpace" />
+    <result column="user_Pwd" jdbcType="VARCHAR" property="userPwd" />
+    <result column="depId" jdbcType="INTEGER" property="depid" />
+    <result column="roleId" jdbcType="INTEGER" property="roleid" />
+    <result column="authorityId" jdbcType="INTEGER" property="authorityid" />
+    <result column="departmentHead" jdbcType="VARCHAR" property="departmenthead" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    userId, roster_id, roster_name, roster_phone, roster_jobNo, roster_sex, roster_post, 
+    roster_department, entry_time, reality_entry_time, invitation_name, roster_type, 
+    onjob_type, roster_remarks, flag, is_Destroy, `type`, create_time, update_time, work_space, 
+    user_Pwd, depId, roleId, authorityId, departmentHead
+  </sql>
+</mapper>
